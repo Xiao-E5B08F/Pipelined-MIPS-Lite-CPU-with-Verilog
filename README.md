@@ -3,8 +3,10 @@
 ## Table of Contents:
 
 - [Description](#description)
-- [Development Environment](#Development_Environment)
+- [Development Environment](#development-environment)
 - [Features](#features)
+- [Architecture](#architecture)
+- [Instruction](#instruction)
 
 ## Description:
 
@@ -20,3 +22,10 @@ ModelSim
 - Pipelined architecture for improved performance.
 - Subset of MIPS instructions supported.
 - Modular design for easy expansion and customization.
+
+## Architecture
+
+![Full architecture.png](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/Full%20architecture.png)
+
+
+## Instruction
