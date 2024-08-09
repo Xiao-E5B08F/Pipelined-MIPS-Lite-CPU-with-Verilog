@@ -7,6 +7,11 @@
 - [Features](#features)
 - [Architecture](#architecture)
 - [Instruction](#instruction)
+  - [Integer Arithmetic](#integer-arithmetic)
+  - [Integer Memory Access](#integer-memory-access)
+  - [Integer Branch](#integer-branch)
+  - [Integer Multiply](#integer-multiply)
+  - [Other Instructions](#other-instructions)
 
 ## Description:
 
@@ -32,42 +37,74 @@ ModelSim
 
 ### Integer Arithmetic:
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/add.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/add.png" width="800" height="200">
+</div>
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/sub.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/sub.png" width="800" height="200">
+</div>
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/and.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/and.png" width="800" height="200">
+</div>
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/or.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/or.png" width="800" height="200">
+</div>
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/srl.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/srl.png" width="800" height="200">
+</div>
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/slt.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/slt.png" width="800" height="200">
+</div>
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/addiu.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/addiu.png" width="800" height="200">
+</div>
 
 ### Integer Memory Access:
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/lw.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/lw.png" width="800" height="200">
+</div>
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/sw.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/sw.png" width="800" height="200">
+</div>
 
 ### Integer Branch:
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/beq.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/beq.png" width="800" height="200">
+</div>
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/j.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/j.png" width="800" height="200">
+</div>
 
 ### Integer Multiply:
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/multu.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/multu.png" width="800" height="200">
+</div>
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/maddu.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/maddu.png" width="800" height="200">
+</div>
 
 ### Other Instructions:
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/mfhi.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/mfhi.png" width="800" height="200">
+</div>
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/mflo.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/mflo.png" width="800" height="200">
+</div>
 
-![](https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/nop.png)
+<div align=center>
+<img src="https://github.com/Xiao-E5B08F/Pipelined-MIPS-Lite-CPU-with-Verilog/blob/main/PICs/nop.png" width="800" height="200">
+</div>
